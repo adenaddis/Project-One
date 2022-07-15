@@ -27,14 +27,8 @@ const commentList = document.getElementById("comment-list")
     lia.textContent = newComment
     commentList.append(lia)
  })
- // Like count goes up
-// const likeCountOne = document.getElementById("like-count1")
-// const likeButtonOne = document.getElementById("like-button1")
-// likeButtonOne.addEventListener('click', () => {
-//     console.log(likeCountOne.dataset.likeCountOne++)
-    
-//     likeCountOne.textContent = likeCountOne.dataset.likeCountOne + " likes"
-// })
+
+
 const likeCount = document.getElementById("like-count1")
 const likeButton = document.getElementById("like-button1")
 likeButton.addEventListener('click', () => {
@@ -130,4 +124,5 @@ blobGif.addEventListener("mouseover", (event) => {
 blobGif.addEventListener("mouseout", (event) => {
     blobBox.remove()
 })
+
 })

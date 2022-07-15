@@ -1,9 +1,9 @@
 The Basic Story of Application
-Motivational Monsters is a single page app that has monsters (static images/ animated images/stickers) floating on the page. Each monster will be labeled with different common struggles for people in a coding bootcamp; i.e. “swamp snake monster” [from our end of day surveys] or “imposter monster” [the imposter syndrome], or “timesuck monster” [having time-management issues]. When you click or mouse over (tbd), you get randomly generated inspirational quotes. There’ll also be a form to submit the users custom positive quotes or general feedback of the quote (tbd), and a like button to show their appreciation for the randomized quote that they receive from a click event.
+Motivational Monsters is a single page app that has monsters (static images/ animated images/stickers) floating on the page. Each monster will be labeled with different common struggles for people in a coding bootcamp; i.e. “Code Rage Monster” [from our end of day surveys] or “imposter monster” [the imposter syndrome], or “timesucker monster” [having time-management issues]. When you click the middle button, you get randomly generated inspirational quotes. There’ll also be a form to submit the users custom positive quotes or general feedback of the quote, and a like button to show their appreciation for which monster they identify with.
  
 The Core Features of MVP
 
-Successful user interaction with mouse over event (to possibly show a little animation of monster or a randomly generated quote), click events, and form submission from external api.
+Successful user interaction with mouse over event to display the monsters name and its message, click events(via the quote generating button and like buttons), and form submission from external api.
  
 The API Data 
 
